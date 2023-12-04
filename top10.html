@@ -10,11 +10,11 @@
 
 <body>
   <header>
-    <h1 tabindex="1"> Michael Umscheid </h1>
-    <h2 class="PageTitle" tabindex="2"> Top 10 List Page </h2>
+    <h1 id="myname" tabindex="1"> Michael Umscheid </h1>
+    <h2 id="title" class="PageTitle" tabindex="2"> Top 10 List Page </h2>
   </header>
   <main>
-    <h3 tabindex="3"> My Favorite Video Games of all Time:</h3>
+    <h3 id="header" tabindex="3"> My Favorite Video Games of all Time:</h3>
     <ol class="list">
         <li class="Max box" tabindex="4">Max Payne 2 (2003)</li>
         <li class="DragonAge box" tabindex="5">Dragon Age: Origins (2009)</li>
@@ -31,6 +31,9 @@
   <script>
   function changeColor() {
     document.getElementById("linkhome").style.color = "red";
+    document.getElementById("header").style.color = "red";
+    document.getElementById("title").style.color = "red";
+    document.getElementById("myname").style.color = "red";
   }
   </script>
     <nav>
