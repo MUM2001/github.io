@@ -8,7 +8,7 @@
   <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="body">
     <header>
     <h1 tabindex="1"> Michael Umscheid </h1>
     <h2 class="PageTitle" tabindex="2"> Home Page </h2>
@@ -34,10 +34,15 @@
             </ul>
         </section>
     </main>
+    <script>
+    function changeColor() {
+      document.getElementById("body").style.background= "red";
+    }
+    </script>
     <nav>
         <h2 class="link box" tabindex="12"> Links: </h2>
-        <a class="box" href="resume.html">Resume page</a> <br>
-        <a class="box" href="top10.html">Top 10 list page</a>
+        <a onclick="changeColor()"class="box" href="resume.html">Resume page</a> <br>
+        <a onclick="changeColor()" class="box" href="top10.html">Top 10 list page</a>
     </nav>
 </body>
 
