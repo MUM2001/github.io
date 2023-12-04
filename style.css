@@ -96,9 +96,9 @@ span {
     font-weight: bold;
     font-style: italic;
 }
-#box {
+.box {
 }
-#box:hover {
+.box:hover {
   transform: scale(1.5, 1.5);
 }
 @media(max-width: 700px)
