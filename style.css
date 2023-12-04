@@ -98,7 +98,7 @@ span {
 }
 
 #box:hover {
-  transform: rotateZ(5deg);
+  transform: rotateZ(45deg);
 }
 @media(max-width: 700px)
       {
