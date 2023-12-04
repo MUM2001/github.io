@@ -3,11 +3,16 @@
     <head>
         <title>Home Page</title>
     </head>
-    <body>
+    <body id="body">
         <h1 class="PageTitle" tabindex="1">Hello World!</h1>
+        <script>
+        function changeColor() {
+          document.getElementById("body").style.background= "red";
+        }
+        </script>
     <nav>
         <h2 class="link box" tabindex="2"> Link to website </h2>
-        <a href="home.html">Home page</a>
+        <a onclick="changeColor()" href="home.html">Home page</a>
     </nav>
     </body>
 </html>
