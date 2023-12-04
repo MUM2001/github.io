@@ -96,7 +96,17 @@ span {
     font-weight: bold;
     font-style: italic;
 }
-
+#box {
+  width: 300px;
+  height: 150px;
+  border: 2px solid blue;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #box:hover {
   transform: rotateZ(45deg);
 }
