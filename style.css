@@ -1,0 +1,105 @@
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    background-color: white;
+    padding: 1%;
+    text-align: center;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: -1%;
+}
+body {
+    box-sizing: border-box;
+    background-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.PageTitle {
+    text-decoration-line: underline;
+    padding: 1%;
+    text-align: center;
+    background-color: black;
+    margin: -3% 1% 1% 1%;
+    color: white;
+}
+h2 {
+    font-weight: bold;
+
+}
+h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+span {
+    font-weight: bold;
+}
+.ResumeHeading {
+    margin: 3%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 3%;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+.link {
+    margin-left: -1%;
+    margin-right: -1%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 3%;
+}
+.list {
+    background-color: black;
+    text-align: center;
+}
+.Max{
+    color: lightyellow;
+}
+.DragonAge {
+    color: white;
+}
+.KCD {
+    color: blanchedalmond;
+}
+.DMC3 {
+    color: plum;
+}
+.DS {
+    color: lightblue;
+}
+.FNV {
+    color: lawngreen;
+}
+.DD {
+    color: white;
+}
+.DP {
+    color: cornsilk;
+}
+.AW {
+    color:  lemonchiffon;
+}
+.RE5 {
+    color: white;
+}
+.homemessage {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media(max-width: 700px)
+      {
+        li {
+          font-size: x-large;
+        }
+      }
