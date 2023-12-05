@@ -101,6 +101,9 @@ span {
 .box:hover {
   transform: scale(1.5, 1.5);
 }
+main > .container {
+  padding: 60px 15px 0;
+}
 @media(max-width: 700px)
       {
         li {
