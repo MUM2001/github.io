@@ -116,10 +116,10 @@ span {
 
 #dot {
   position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 15px;
-  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: black;
   animation-name: running;
   animation-duration: 5s;
   animation-timing-function: linear;
