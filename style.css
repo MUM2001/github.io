@@ -104,15 +104,17 @@ span {
 /* BootStrapLayout CSS */
 
 main > .container {
-  padding: 70px 20px 0;
+  padding: 60px 15px 0;
 }
 .footer {
-  background-color: gray;
+  background-color: yelllow;
 }
-
+.nav-link:hover {
+  transform: scale(1.5, 1.5);
+}
 .footer > .container {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .nav-link {
     padding-right: 20px;
