@@ -42,12 +42,24 @@
       document.getElementById("body").style.background= "red";
     }
     </script>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark>
-        <h2 class="link box" tabindex="12"> Links: </h2>
-        <a class="navbar-link" onclick="changeColor()"class="box" href="index.html">Index page</a> <br>
-        <a class=""navbar-link"" onclick="changeColor()"class="box" href="resume.html">Resume page</a> <br>
-        <a class=""navbar-link"" onclick="changeColor()" class="box" href="top10.html">Top 10 list page</a>
-    </nav>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-bottom bg-dark>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="navbar-link" onclick="changeColor()"class="box" href="index.html">Index page</a>
+                </li>
+                <li class="nav-item">
+                  <a class=""navbar-link" onclick="changeColor()"class="box" href="resume.html">Resume page</a>
+                </li>
+                <li class="nav-item">
+                  <aclass=""navbar-link" onclick="changeColor()" class="box" href="top10.html">Top 10 list page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about">About</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 </body>
 
 </html>
