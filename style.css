@@ -106,6 +106,12 @@ span {
 .box:hover {
   transform: scale(1.5, 1.5);
 }
+#field {
+  position: relative;
+  border: none;
+  width: 1000px;
+  height: 60px;
+}
 #dot {
   position: absolute;
   width: 60px;
@@ -125,8 +131,13 @@ span {
   }
 
   50% {
-    left: 250px;
+    left: 500px;
     background-color: orange;
+  }
+
+  80% {
+    left: 800px;
+    background-color: green;
   }
 
   to {
