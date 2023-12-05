@@ -111,7 +111,7 @@ span {
   position: relative;
   border: 3px solid black;
   width: 500px;
-  height: 100px;
+  height: 60px;
 }
 
 #dot {
@@ -129,57 +129,57 @@ span {
 @keyframes running {
   from {
     left: 0px;
-    background-color: 'red';
+    background-color: red;
   }
 
   10% {
     left: 50px;
-    background-color: 'red';
+    background-color: red;
   }
 
   20% {
     left: 100px;
-    background-color: 'red';
+    background-color: red;
   }
 
   30% {
     left: 150px;
-    background-color: 'orange';
+    background-color: orange;
   }
 
   40% {
     left: 200px;
-    background-color: 'orange';
+    background-color: orange;
   }
 
   50% {
     left: 250px;
-    background-color: 'orange';
+    background-color: orange;
   }
 
   60% {
     left: 300px;
-    background-color: 'orange';
+    background-color: orange;
   }
 
   70% {
     left: 350px;
-    background-color: 'orange';
+    background-color: orange;
   }
   
   80% {
     left: 400px;
-    background-color: 'green';
+    background-color: green;
   }
 
   90% {
     left: 450px;
-     background-color: 'green';
+     background-color: green;
   }
 
   to {
-    left: 500px;
-     background-color: 'white';
+    left: 495px;
+     background-color: white;
   }
 }
 main > .container {
