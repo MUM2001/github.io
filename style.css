@@ -106,6 +106,9 @@ span {
 .box:hover {
   transform: scale(1.5, 1.5);
 }
+.list-start {
+    padding: 60px 15px 0;
+}
 main > .container {
   padding: 60px 15px 0;
 }
