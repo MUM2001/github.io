@@ -101,26 +101,21 @@ span {
 .box:hover {
   transform: scale(1.5, 1.5);
 }
-/* BootStrapLayout CSS */
-
 main > .container {
   padding: 60px 15px 0;
-}
-.footer {
-  background: gray;
-}
-.nav-link:hover {
-  transform: scale(1.5, 1.5);
 }
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
 }
 navbar-nav > li {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
-/* -------*/
+navbar-nav > li {
+    padding-left: 40px;
+    padding-right: 40px;
+}
 @media(max-width: 700px)
       {
         li {
