@@ -108,7 +108,7 @@ span {
 }
 #field {
   position: relative;
-  border: none;
+  border: 3px solid lightyellow;
   width: 1000px;
   height: 60px;
 }
