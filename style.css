@@ -106,24 +106,16 @@ span {
 .box:hover {
   transform: scale(1.5, 1.5);
 }
-
-#field {
-  position: relative;
-  border: 3px solid black;
-  width: 500px;
-  height: 60px;
-}
-
 #dot {
   position: absolute;
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background-color: black;
+  background-color: red;
   animation-name: running;
   animation-duration: 5s;
   animation-timing-function: linear;
-  animation-iteration-count: 3;
+  animation-iteration-count: 10;
 }
 
 @keyframes running {
@@ -132,54 +124,14 @@ span {
     background-color: red;
   }
 
-  10% {
-    left: 50px;
-    background-color: red;
-  }
-
-  20% {
-    left: 100px;
-    background-color: red;
-  }
-
-  30% {
-    left: 150px;
-    background-color: orange;
-  }
-
-  40% {
-    left: 200px;
-    background-color: orange;
-  }
-
   50% {
     left: 250px;
     background-color: orange;
   }
 
-  60% {
-    left: 300px;
-    background-color: orange;
-  }
-
-  70% {
-    left: 350px;
-    background-color: orange;
-  }
-  
-  80% {
-    left: 400px;
-    background-color: green;
-  }
-
-  90% {
-    left: 450px;
-     background-color: green;
-  }
-
   to {
-    left: 495px;
-     background-color: white;
+    left: 1000x;
+    background-color: white;
   }
 }
 main > .container {
