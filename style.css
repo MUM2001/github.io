@@ -109,7 +109,7 @@ span {
 #field {
   position: relative;
   border: 3px solid lightyellow;
-  width: 900px;
+  width: 1000px;
   height: 70px;
 }
 #dot {
@@ -141,7 +141,7 @@ span {
   }
 
   to {
-    left: 899px;
+    left: 1000px;
     background-color: white;
   }
 }
